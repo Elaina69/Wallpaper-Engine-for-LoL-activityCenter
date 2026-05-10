@@ -1,13 +1,18 @@
 {
-    "name": "wallpaperengineactivitycenter",
-    "description": "TBD",
+    "pluginName": "Wallpaper Engine for Activity Center",
+    "folderName": "wallpaper-engine-for-activity-center",
+    "author": {
+        "name": "Elaina Da Catto",
+        "github": "Elaina69"
+    },
+    "description": "",
+    "config": {
+        "pluginsPath": "../../@Elaina-Plugins"
+    },
     "private": true,
     "version": "1.0.0",
     "license": "WTFPL",
     "type": "module",
-    "config": {
-        "penguPath": "I:\\Riot Games\\pengu-loader"
-    },
     "scripts": {
         "build": "tsc && vite build"
     },
